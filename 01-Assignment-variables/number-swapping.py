@@ -49,10 +49,13 @@ print("char2 =", char2)
 # current_balance = 10000 ○ After deposit: current_balance = 15000 
 
 
-current_balance = 10000
+current_balance = 10000 
 deposit_balance = 5000
-after_deposit = current_balance + deposit_balance
-print("current_balance =", current_balance, "After Deposit Total Balance =", after_deposit)
+print(F"Current Balance : {current_balance}")
+print(F"Deposite Balance : {deposit_balance}")
+
+current_balance=current_balance+deposit_balance
+print(f"After Deposite : {current_balance}")
 
 
 # 6. Update balance 
@@ -62,8 +65,10 @@ print("current_balance =", current_balance, "After Deposit Total Balance =", aft
 
 before_balance = 12000
 withdrawal = 3000
+print(F"Before Balance : {before_balance}")
+print(F"Withdrawal : {withdrawal}")
 After = before_balance - withdrawal
-print("after withdrawal Before: balance =", before_balance, "After balance is =", After)
+print(F"After balance : {After}")
 
 
 # 7. Increase shopping cart items 

@@ -1,4 +1,6 @@
-price = 1000                                         #20% of 100 = 20/100*1000 = 200
-discount = 20                                        # final price = 1000 - 200 =800
-final_price = price - (price * discount / 100)
-print(final_price)
+before_balance = 12000
+withdrawal = 3000
+print(F"Before Balance : {before_balance}")
+print(F"Withdrawal : {withdrawal}")
+After = before_balance - withdrawal
+print(F"After balance : {After}")
