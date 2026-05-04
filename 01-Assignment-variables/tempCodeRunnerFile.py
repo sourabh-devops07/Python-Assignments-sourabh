@@ -1,6 +1,7 @@
-before_balance = 12000
-withdrawal = 3000
-print(F"Before Balance : {before_balance}")
-print(F"Withdrawal : {withdrawal}")
-After = before_balance - withdrawal
-print(F"After balance : {After}")
+n1 =200
+char2 = "java"
+temp = n1
+n1 = char2
+char2 = temp
+print(F"n1 = {n1}")
+print(F"char2 = {char2}")
