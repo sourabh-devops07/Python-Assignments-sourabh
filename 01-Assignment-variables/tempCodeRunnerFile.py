@@ -1,5 +1,11 @@
-initial_value = 200
-final_value = 250
-difference = 50
-percentage_change = 50/200*100
-print(F"percentage change - {percentage_change}")
+movie_name = input("Enter Movie Name -")
+viewer_name = input("Enter Viewer Name -")
+seat_number = input("Enter Seat Number -")
+show_time = input("Enter show time -")
+
+print(F" 🎬 Movie Ticket 🧧 ")
+print("Movie Name", movie_name)
+print("Viewer Name", viewer_name)
+print("Seat Number", seat_number)
+print("Show Time", show_time)
+print("Enjoy the Show!")
