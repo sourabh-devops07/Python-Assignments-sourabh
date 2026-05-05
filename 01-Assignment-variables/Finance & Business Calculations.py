@@ -23,3 +23,16 @@ rate = 5
 time = 2
 SI = principal * rate * time /100
 print(F"Simpe Intrest - {SI}")
+
+# 14. Calculate compound interest Input: 
+# principal = 10000, 
+# rate = 5, 
+# time = 2 
+# Output: Compound Interest = ?
+
+principal = 10000
+rate = 5
+time = 2
+Total_amount = 10000*(1+5/100)**2
+CI = Total_amount - principal
+print(F"Compound Interest - {CI}")
