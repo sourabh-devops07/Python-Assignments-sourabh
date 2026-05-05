@@ -22,3 +22,14 @@ Subject_4 = 85
 Total_Avg = Subject_1 + Subject_2 + Subject_3 + Subject_4/4
 print(F"Total_Avg Received {Total_Avg}")
 
+# 11. Calculate average of 3 numbers Input: 
+# num1 = 25, 
+# num2 = 35, 
+# num3 = 45 
+# Output: Average = ?
+
+num1 = 25
+num2 = 35
+num3 = 45
+Avg = num1 + num2 + num3 /3
+print(F" Total Avg 3 Numbers are - {Avg} ")
