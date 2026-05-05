@@ -1,7 +1,6 @@
-n1 =200
-char2 = "java"
-temp = n1
-n1 = char2
-char2 = temp
-print(F"n1 = {n1}")
-print(F"char2 = {char2}")
+Subject_1 = 80
+Subject_2 = 75
+Subject_3 = 90
+Subject_4 = 85
+Total_Avg = Subject_1 + Subject_2 + Subject_3 + Subject_4/4
+print(F"Total_Avg Received {Total_Avg}")
