@@ -36,3 +36,25 @@ time = 2
 Total_amount = 10000*(1+5/100)**2
 CI = Total_amount - principal
 print(F"Compound Interest - {CI}")
+
+# 15. Calculate tax on income Input: 
+# income = 500000, 
+# tax_rate = 10 
+# Output: Tax = ? 
+
+
+income = 500000
+tax_rate = 10
+Tax = 500000 * 10 /100
+print(F" Tax - {Tax}")
+
+# 16. Calculate percentage increase or decrease Input: 
+# initial_value = 200, 
+# final_value = 250 
+# Output: Percentage Change = ?
+
+initial_value = 200
+final_value = 250
+difference = 50
+percentage_change = 50/200*100
+print(F"percentage change - {percentage_change}")
